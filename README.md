@@ -83,50 +83,43 @@ rating FLOAT
      <li>In which city is each branch?</li>
  </ul>
  
- <h3>Product-Related Questions</h3>
- <ol>
-     <li>What unique product lines does the data have?</li>
-     <li>What is the total quantity sold for each product line?</li>
-     <li>What is the total revenue by month?</li>
-     <li>What is the total COGS for each month?</li>
-     <li>What is the total revenue for each product line?</li>
-     <li>What is the total revenue for each city and branch?</li>
-     <li>What is the average VAT percentage for each product line?</li>
-     <li>How is each product line classified based on the overall average quantity sold?</li>
-     <li>Which branches have sold more products than the overall average?</li>
-     <li>Which product line is the most popular among each gender?</li>
-     <li>What is the average rating of each product line?</li>
- </ol>
- 
- <h3>Customer-Related Questions</h3>
- <ol>
-     <li>What unique customer types exist in the data?</li>
-     <li>What unique payment methods exist in the data?</li>
-     <li>Which customer type appears most frequently in the sales data?</li>
-     <li>Which customer type has made the most purchases?</li>
-     <li>Which gender represents the majority of customers?</li>
-     <li>What is the gender distribution for each branch?</li>
-     <li>At what time of the day do customers give the highest average ratings?</li>
-     <li>At what time of the day do customers give the highest average ratings for each branch?</li>
-     <li>On which day of the week do customers give the highest average ratings?</li>
-     <li>Which day of the week has the best average ratings for each branch?</li>
- </ol>
- 
- <h3>Sales-Related Questions</h3>
- <ol>
-     <li>How many sales were made during each time of the day for every weekday?</li>
-     <li>Which customer type generates the highest total revenue?</li>
-     <li>Which city has the highest average tax/VAT percentage?</li>
-     <li>Which customer type has the highest average VAT percentage?</li>
- </ol>
-
 <h3>Product-Related Questions</h3>
 <ol>
-   <li>What unique product lines exist in the data?</li>
-   <li>What is the total quantity sold for each product line?</li>
-   <li>What is the total revenue by month?</li>
-   <li>What is the total COGS for each month?</li>
+    <li>What unique product lines does the data have?</li>
+    <li>What is the total quantity sold for each product line, sorted in descending order?</li>
+    <li>What is the total revenue by month?</li>
+    <li>What is the total COGS for each month, sorted in ascending order?</li>
+    <li>What is the total revenue for each product line, sorted in descending order?</li>
+    <li>What is the total revenue for each city and branch, sorted in ascending order?</li>
+    <li>What is the average VAT percentage for each product line, sorted in descending order?</li>
+    <li>Classify each product line as 'Good' or 'Bad' based on whether its average quantity sold is above or below the overall average quantity sold.</li>
+    <li>Which branches have sold more products than the overall average quantity sold across all branches?</li>
+    <li>Which product line is the most popular among each gender?</li>
+    <li>What is the average rating of each product line?</li>
 </ol>
+
+<h3>Customer-Related Questions</h3>
+<ol>
+    <li>What unique customer types exist in the data?</li>
+    <li>What unique payment methods exist in the data?</li>
+    <li>Which customer type appears most frequently in the sales data?</li>
+    <li>Which customer type has made the most purchases?</li>
+    <li>Which gender represents the majority of customers?</li>
+    <li>What is the gender distribution for each branch?</li>
+    <li>At what time of the day do customers give the highest average ratings?</li>
+    <li>At what time of the day do customers give the highest average ratings for each branch?</li>
+    <li>On which day of the week do customers give the highest average ratings?</li>
+    <li>Which day of the week has the best average ratings for each branch?</li>
+</ol>
+
+<h3>Sales-Related Questions</h3>
+<ol>
+    <li>How many sales were made during each time of the day for every weekday?</li>
+    <li>Which customer type generates the highest total revenue?</li>
+    <li>Which city has the highest average tax/VAT percentage?</li>
+    <li>Which customer type has the highest average VAT percentage?</li>
+</ol>
+
 
 <h3>Example SQL Queries</h3>
 <pre><code>SELECT customer_type, SUM(total) AS total_revenue 

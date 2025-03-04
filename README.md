@@ -46,10 +46,10 @@ rating FLOAT
 
 <h2>Key Analysis Areas</h2>
  <h3>General Insights</h3>
- <li>
+ <ul>
      <li>Count of unique cities and their corresponding branches.</li>
      <li>Unique product lines and payment methods available.</li>
- </li>
+ </ul>
  
  <h3>Sales Performance</h3>
  <ul>

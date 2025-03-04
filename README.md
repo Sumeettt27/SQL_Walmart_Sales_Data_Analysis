@@ -1,4 +1,4 @@
-# SQL_Walmart_sales_Data_Analysis
+# SQL_Walmart_Sales_Data_Analysis
    
 
        
@@ -84,7 +84,7 @@ rating FLOAT
  </ul>
  
  <h3>Product-Related Questions</h3>
- <ul>
+ <ol>
      <li>What unique product lines does the data have?</li>
      <li>What is the total quantity sold for each product line?</li>
      <li>What is the total revenue by month?</li>
@@ -96,10 +96,10 @@ rating FLOAT
      <li>Which branches have sold more products than the overall average?</li>
      <li>Which product line is the most popular among each gender?</li>
      <li>What is the average rating of each product line?</li>
- </ul>
+ </ol>
  
  <h3>Customer-Related Questions</h3>
- <ul>
+ <ol>
      <li>What unique customer types exist in the data?</li>
      <li>What unique payment methods exist in the data?</li>
      <li>Which customer type appears most frequently in the sales data?</li>
@@ -110,15 +110,15 @@ rating FLOAT
      <li>At what time of the day do customers give the highest average ratings for each branch?</li>
      <li>On which day of the week do customers give the highest average ratings?</li>
      <li>Which day of the week has the best average ratings for each branch?</li>
- </ul>
+ </ol>
  
  <h3>Sales-Related Questions</h3>
- <ul>
+ <ol>
      <li>How many sales were made during each time of the day for every weekday?</li>
      <li>Which customer type generates the highest total revenue?</li>
      <li>Which city has the highest average tax/VAT percentage?</li>
      <li>Which customer type has the highest average VAT percentage?</li>
- </ul>
+ </ol>
 
 <h3>Product-Related Questions</h3>
 <ol>
@@ -134,6 +134,6 @@ FROM sales
 GROUP BY customer_type 
 ORDER BY total_revenue DESC;</code></pre>
 
-For more SQL queries and insights, refer to the <a href="https://github.com/Sumeettt27/SQL_Walmart_Sales_Data_Analysis/blob/main/walmart_sales_query.sql" download>Walmart_Sales_query</a>
+For more SQL queries and insights, refer to the <a href="https://github.com/Sumeettt27/SQL_Walmart_Sales_Data_Analysis/blob/main/walmart_sales_query.sql" download>Walmart_Sales_Query</a>
  file.
 

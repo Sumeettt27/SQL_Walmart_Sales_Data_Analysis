@@ -134,6 +134,6 @@ FROM sales
 GROUP BY customer_type 
 ORDER BY total_revenue DESC;</code></pre>
 
-For more SQL queries and insights, refer to the <a href="https://github.com/Sumeettt27/SQL_Walmart_Sales_Data_Analysis/blob/main/walmart_sales_query.sql" download>Walmart_Sales_Query</a>
+For more SQL queries and insights, refer to the <a href="https://github.com/Sumeettt27/SQL_Walmart_Sales_Data_Analysis/blob/main/walmart_sales_query.sql" download>walmart_sales_query</a>
  file.
 

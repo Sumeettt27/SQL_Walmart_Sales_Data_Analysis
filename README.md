@@ -46,10 +46,10 @@ rating FLOAT
 
 <h2>Key Analysis Areas</h2>
  <h3>General Insights</h3>
- <ol>
+ <li>
      <li>Count of unique cities and their corresponding branches.</li>
      <li>Unique product lines and payment methods available.</li>
- </ol>
+ </li>
  
  <h3>Sales Performance</h3>
  <ul>
@@ -78,10 +78,10 @@ rating FLOAT
  <h2>Business Questions To Answer</h2>
  
  <h3>General Questions</h3>
- <ul>
+ <ol>
      <li>How many unique cities does the data have?</li>
      <li>In which city is each branch?</li>
- </ul>
+ </ol>
  
 <h3>Product-Related Questions</h3>
 <ol>

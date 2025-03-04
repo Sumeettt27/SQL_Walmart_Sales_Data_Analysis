@@ -130,3 +130,78 @@ ORDER BY total_revenue DESC;</code></pre>
 For more SQL queries and insights, refer to the <a href="https://github.com/Sumeettt27/SQL_Walmart_Sales_Data_Analysis/blob/main/walmart_sales_query.sql" download>walmart_sales_query</a>
  file.
 
+
+<h2>Key Insights</h2>
+<ul>
+    <li>Members contribute the highest revenue ($164,223.40), and Naypyitaw generates the most revenue ($110,568.70).</li>
+    <li>Electronic Accessories are the most sold product line (971 units), while Food & Beverages generate the most revenue ($56,144.84).</li>
+    <li>Afternoon sales receive the best customer ratings (7.03), and Monday has the highest overall customer satisfaction (7.15).</li>
+    <li>Branch A has sold more products than the overall average, making it the best-performing branch.</li>
+    <li>Peak Sales Time: Evening & Afternoon, particularly on Saturdays (81 evening sales).</li>
+</ul>
+
+<hr>
+
+<h2>General Insights</h2>
+<ul>
+    <li>The dataset covers three unique cities: Yangon, Naypyitaw, and Mandalay.</li>
+    <li>Each city has a corresponding branch:</li>
+    <ul>
+        <li><strong>Branch A:</strong> Yangon</li>
+        <li><strong>Branch B:</strong> Mandalay</li>
+        <li><strong>Branch C:</strong> Naypyitaw</li>
+    </ul>
+</ul>
+
+<h2>Product-Related Insights</h2>
+<ul>
+    <li><strong>Best-Selling Product Line:</strong> Electronic Accessories (971 units sold).</li>
+    <li><strong>Highest Revenue Product Line:</strong> Food and Beverages ($56,144.84).</li>
+    <li><strong>Most Popular Product Line by Gender:</strong></li>
+    <ul>
+        <li><strong>Female:</strong> Fashion Accessories (96 purchases).</li>
+        <li><strong>Male:</strong> Health and Beauty (88 purchases).</li>
+    </ul>
+    <li><strong>Product Line Ratings:</strong></li>
+    <ul>
+        <li><strong>Highest-rated:</strong> Food and Beverages (7.11).</li>
+        <li><strong>Lowest-rated:</strong> Home and Lifestyle (6.84).</li>
+    </ul>
+    <li><strong>Product Line Performance ('Good' vs. 'Bad')</strong></li>
+    <ul>
+        <li><strong>"Good" (above-average sales):</strong> Health & Beauty, Sports & Travel, Home & Lifestyle, Electronic Accessories.</li>
+        <li><strong>"Bad" (below-average sales):</strong> Food & Beverages, Fashion Accessories.</li>
+    </ul>
+</ul>
+
+<h2>Sales Performance Insights</h2>
+<ul>
+    <li><strong>Highest Revenue Month:</strong> January ($116,291.90).</li>
+    <li><strong>Branch with Highest Revenue:</strong> Naypyitaw ($110,568.70).</li>
+    <li><strong>City with the Highest VAT Percentage:</strong> Naypyitaw (16.05%).</li>
+    <li><strong>Customer Type with Highest Revenue:</strong> Members ($164,223.40).</li>
+    <li><strong>Branch with Highest Total Sales:</strong> Branch A (1,859 units sold).</li>
+</ul>
+
+<h2>Customer Behavior Insights</h2>
+<ul>
+    <li><strong>Most Frequent Customer Type:</strong> Members (501 purchases).</li>
+    <li><strong>Gender Distribution:</strong></li>
+    <ul>
+        <li><strong>Majority Gender:</strong> Female (501 customers).</li>
+        <li><strong>Most Male-Dominant Branch:</strong> Branch A.</li>
+        <li><strong>Most Female-Dominant Branch:</strong> Branch C.</li>
+    </ul>
+    <li><strong>Peak Purchase Hours:</strong> Afternoon (highest average rating of 7.03).</li>
+    <li><strong>Best Days for Customer Satisfaction:</strong></li>
+    <ul>
+        <li><strong>Overall:</strong> Monday (7.15 average rating).</li>
+        <li><strong>By Branch:</strong></li>
+        <ul>
+            <li><strong>Branch A:</strong> Best on Friday (7.31).</li>
+            <li><strong>Branch B:</strong> Best on Monday (7.34).</li>
+            <li><strong>Branch C:</strong> Best on Friday (7.28).</li>
+        </ul>
+    </ul>
+</ul>
+
